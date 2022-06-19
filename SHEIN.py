@@ -5,7 +5,7 @@ from passwords import user_password, user_login
 from time import sleep
 
 
-class SheinScraper:
+class SheinDownloader:
     def __init__(self, url: str):
         path = ".../chromedriver.exe"
         s = Service(path)
